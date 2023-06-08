@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.image-tag{
+    width: 100%;
+    height: 500px;
+    background-image: url(Main_1440x640.webp);
+}
+
+
+/* head part start from here.... */
+
+ .list-tag h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.list{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 22px;
+    color: black;
+
+}
+
+/* grid part start from here.... */
+
+
+.grid-container {
+    width: 100%;
+    height: 620px;
+    background-color: white;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+ }
+ .box-a {
+    border: 3px solid white;
+    border-radius: 10px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url('https://images.samsung.com/is/image/samsung/assets/in/home/0523/KV_684x684.jpg?$684_684_JPG$');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+ .box-a h2{
+   position: absolute;
+   top: 480px;
+   left:100px;
+   font-size: 25px;
+   font-weight:600;
+   text-align: center;
+ }
+ .box-a p{
+   position: absolute;
+   top: 550px;
+   left:80px;
+   /* font-size: 30px;
+   font-weight: bold; */
+ }
+ .box-b {
+    border: 3px solid white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 10px;
+
+    background-image: url('image.avif');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+ }
+ .box-b h2{
+   position: absolute;
+   top: 180px;
+   left:100px;
+   font-size: 20px;
+   font-weight:600;
+   text-align: center;
+ }
+ .box-b p{
+   position: absolute;
+   top: 230px;
+   left:70px;
+   font-size: 12px;
+ }
+ .box-c {
+    border: 3px solid white;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border-radius: 10px;
+
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/SmallTile_Flip3_330x330.jpg?$330_330_JPG$);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+ }
+ .box-c h2{
+   position: absolute;
+   top: 180px;
+   left:160px;
+   font-size: 20px;
+   font-weight:600;
+   text-align: center;
+ }
+ .box-c p{
+   position: absolute;
+   top: 230px;
+   left:145px;
+   font-size: 12px;
+ }
+ .box-d {
+    border: 3px solid white;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 10px;
+
+    background-image: url('SmallTile_43CUE60_330x330.avif');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+ .box-d h2{
+   position: absolute;
+   top: 180px;
+   left:100px;
+   font-size: 20px;
+   text-align: center;
+ }
+ .box-d p{
+   position: absolute;
+   top: 230px;
+   left:70px;
+   font-size:15px;
+   text-align: center;
+  
+ }
+ .box-e {
+    border: 3px solid white;
+    grid-column:3/4 ;
+    grid-row: 2/3;
+    border-radius: 10px;
+
+    background-image: url('https://images.samsung.com/is/image/samsung/assets/in/home/0523/SmallTile_Youmake_330x3301.jpg?$330_330_JPG$');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+ }
+ .box-e h2{
+   position: absolute;
+   top: 20px;
+   left:100px;
+   font-size: 20px;
+   text-align: center;
+ }
+ .box-e p{
+   position: absolute;
+   top: 50px;
+   left:110px;
+   font-size:15px;
+   text-align: center;
+  
+ }
+ 
+   /* ==============this week highlight=========  */
+
+   .list-tag h3{
+    font-weight: 800;
+    font-size: 35px;
+    position: relative;
+    top:480px;
+   padding-left: 550px;
+   } 
+   
+   .para{ padding-left: 500px;
+    position: relative; top: 480px; font-size: 20px;
+   } 
+   .btn{
+    
+    position: relative;
+    top:490px;
+    left: 580px;
+   
+    
+   }
+   .btn1{
+    width: 85px;
+    height: 40px;
+    position: relative;
+    top:490px;
+    left: 600px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    
+   }
+
+ 
+/* seveen part code start from here */
+
+.seevn-part{
+   width: 100%;
+   height:500px;
+   display: flex; 
+   
+  
+} 
+.div1 {
+   width: 50%;
+   height: 500px;
+
+   
+}
+.div1 img{
+   width: 95%;
+   height: 500px;
+   padding-left: 20px;
+   border-radius:30px;
+}
+.div2 {
+   width: 50%;
+   height: 500px;
+}
+.line li{
+   font-size: 30px;
+   padding-top: 30px;
+   margin-top: 20px;
+   list-style:none;
+}
+
+ /* ======looking for something code here===== */
+
+ .looking{
+   height: 600px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 40px;
+}
+.looking h1{
+   color:color;
+   font-size:40px;
+   margin-left: 70px;
+}
+  
+
+.looking input{
+   height: 45px;
+   width: 410px;
+   border-radius: 20px;
+   border: 1px solid black;
+   border-style: none;
+   margin-top: 25px;
+   padding-left: 25px;
+   background-color:rgb(226, 218, 218);
+   color:black;
+   border: none;
+   font-size: 20px;
+   margin-bottom: 5px;
+  margin-left: 80px;
+
+}
+.select{
+   height: 200px;
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.select ul{
+   list-style: none;
+  
+}
+
+.first{
+   height: 40px;
+   width: 370px;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+  
+}
+
+.first button{
+   height: 40px;
+   width: 140px;
+   background-color:white;
+   color:black;
+   border: none;
+   font-size: 15px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   margin-right: 3px;
+   border: 1px solid rgb(187, 184, 184);
+}
+.first button:hover{
+   background-color: rgb(128, 142, 152);
+   color: white;
+
+}
+
+.select2{
+   height: 40px;
+   width: 250px;
+   border: none;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 50px;
+
+}
+
+.select2 button{
+   height: 40px;
+   width: 140px;
+   
+   background-color:white;
+   color:black;
+   border: none;
+   font-size: 15px;
+   margin-left: 3px;
+   border-radius: 20px;
+   border: 1px solid rgb(187, 184, 184);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   
+}
+.select button:hover{
+   background-color: rgb(128, 142, 152);
+   color: white;
+
+}
+.lines{
+   font-size: 14px;
+   list-style: none;
+   padding-top: 3px;
+}
+
+
+
+'3' projectofxiomi
